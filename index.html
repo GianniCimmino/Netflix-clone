@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css">
+
+    <title>Netflix</title>
+  </head>
+  <body class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-around">
+      <a class="navbar-brand" href="https://www.netflix.com/it/"
+        ><img
+          src="assets/imgs/Netflix_Logo_RGB.png"
+          alt="Netflix logo"
+          width="100"
+          height="50"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">TV Shows</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Movie</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Recently Added</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">My list</a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <img class="blackandwhite" src="assets/imgs/magnifying-glass-solid.svg" alt="Search " width="30"
+        height="19">
+        <a class="border-0 text-decoration-none" href="#"><span class="text-white px-3">KIDS</span></a>
+        <img class="blackandwhite"
+          class="text-white"
+          src="assets/imgs/bell-solid.svg"
+          alt="Bell"
+          width="30"
+          height="19"
+        />
+        <div class="btn-group mr-2">
+            <button type="button" class="btn btn-secondary bg-dark border-0">
+                <img
+                src="assets/imgs/img profile.jpeg"
+                alt="img-profile"
+                width="30"
+                height="30"
+              />
+            <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split bg-dark border-0" data-toggle="dropdown" aria-expanded="false" data-reference="parent">
+              <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="https://www.netflix.com/it/login">Accedi</a>
+              <a class="dropdown-item" href="https://www.netflix.com/it/">Registrati</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </nav>
+    <main class="bg-dark text-white">
+      <div class="d-flex mb-4 w-100">
+        <h2 class="mr-5">TV Shows</h2>
+      
+      <div class="dropdown" id="generi">
+        <button class="btn btn-secondary dropdown-toggle text-light bg-dark" type="button" data-toggle="dropdown" aria-expanded="false">
+          Generi
+        </button>
+        <div class="dropdown-menu bg-dark border-light">
+          <a class="dropdown-item" href="#">Azione</a>
+          <a class="dropdown-item" href="#">Fantasy</a>
+          <a class="dropdown-item" href="#">Commedia</a>
+          <a class="dropdown-item" href="#">Animazione</a>
+          <a class="dropdown-item" href="#">Horror</a>
+          <a class="dropdown-item" href="#">Thriller</a>
+        </div>
+      </div>
+    </div>
+    </main>
+    <section class="movie-row mb-5 pl-5">
+      <h3 class="mb-3 text-white" id="title">Trending now</h3>
+      <div class="row no-gutters flex-nowrap">
+          <div class="col-2 mx-1 movie-card">
+              <img src="./assets/imgs/movies/1.png" alt="">
+          </div>
+          <div class="col-2 mx-1 movie-card">
+              <img src="./assets/imgs/movies/2.png" alt="">
+          </div>
+          <div class="col-2 mx-1 movie-card">
+              <img src="./assets/imgs/movies/3.png" alt="">
+          </div>
+          <div class="col-2 mx-1 movie-card">
+              <img src="./assets/imgs/movies/4.png" alt="">
+          </div>
+          <div class="col-2 mx-1 movie-card">
+              <img src="./assets/imgs/movies/5.png" alt="">
+          </div>
+          <div class="col-2 mx-1 movie-card">
+              <img src="./assets/imgs/movies/6.png" alt="">
+          </div>
+          <div class="col-2 mx-1 movie-card">
+              <img src="./assets/imgs/movies/7.png" alt="">
+              <div class="movie-shadow"></div>
+          </div>
+          </section>
+    <section class="movie-row mb-5 pl-5">
+            <h3 class="mb-3 text-white" id="title">Watch It Again</h3>
+            <div class="row no-gutters flex-nowrap">
+                <div class="col-2 mx-1 movie-card">
+                    <img src="./assets/imgs/movies/8.png" alt="">
+                </div>
+                <div class="col-2 mx-1 movie-card">
+                    <img src="./assets/imgs/movies/9.png" alt="">
+                </div>
+                <div class="col-2 mx-1 movie-card">
+                    <img src="./assets/imgs/movies/10.png" alt="">
+                </div>
+                <div class="col-2 mx-1 movie-card">
+                    <img src="./assets/imgs/movies/11.png" alt="">
+                </div>
+                <div class="col-2 mx-1 movie-card">
+                    <img src="./assets/imgs/movies/12.png" alt="">
+                </div>
+                <div class="col-2 mx-1 movie-card">
+                    <img src="./assets/imgs/movies/13.png" alt="">
+                </div>
+                <div class="col-2 mx-1 movie-card">
+                    <img src="./assets/imgs/movies/14.png" alt="">
+                    <div class="movie-shadow"></div>
+                </div>
+          </section>
+        <section class="movie-row mb-5  pl-5 ">
+          <h3 class="mb-3 text-white">New Releases</h3>
+            <div class="row no-gutters flex-nowrap">
+            <div class="col-2 mx-1 movie-card">
+                <img src="./assets/imgs/movies/5.png" alt="">
+            </div>
+            <div class="col-2 mx-1 movie-card">
+              <img src="./assets/imgs/movies/6.png" alt="">
+            </div>
+            <div class="col-2 mx-1 movie-card">
+              <img src="./assets/imgs/movies/7.png" alt="">
+            </div>
+            <div class="col-2 mx-1 movie-card">
+              <img src="./assets/imgs/movies/18.png" alt="">
+            </div>
+            <div class="col-2 mx-1 movie-card">
+              <img src="./assets/imgs/movies/15.png" alt="">
+            </div>
+            <div class="col-2 mx-1 movie-card">
+              <img src="./assets/imgs/movies/16.png" alt="">
+            </div>
+            <div class="col-2 mx-1 movie-card">
+              <img src="./assets/imgs/movies/17.png" alt="">
+           <div class="movie-shadow"></div>
+           </div>
+          </section>
+          </div>
+        </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  </body>
+</html>
